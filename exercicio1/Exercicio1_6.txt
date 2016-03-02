@@ -1,0 +1,1 @@
+As diferenças entre os resultados dos ítens 3, 4 e 5 ocorreram devido à diferença entre o tipo da varáivel. No ítem 3, ao utilizar o tipo inteiro de dados

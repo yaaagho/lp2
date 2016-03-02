@@ -1,1 +1,8 @@
+O Tipo Abstrato de Dados (TAD) é a especificação de um conjunto de dados e operações, como, por exemplo, as classes: se tem a criação de tipos (por exemplo, um tipo estudante que possui nome e matrícula), onde esses tipos funcionam com o inteiro ou a string, tendo operadores próprios e operações (métodos). 
+
+As classes são conjuntos de objetos com características comuns. Uma classe é como um modelo para a criação de objetos, que tem as mesmas características da classe à qual pertence.
+
+Os objetos são a instância de uma classe. Temos uma classe "gatos" que é formada pelos objetos "gato". Todos os objetos tem em comum o fato de serem gatos (mesma espécie), mas podem ter características diferentes entre si. 
+
+Mensagem é uma chamada a um objeto para invocar um de seus métodos, ativando um comportamento descrito por sua classe. Também pode ser direcionada diretamente a uma classe.
 

@@ -1,1 +1,1 @@
-
+Quem faz o papel de instanciador de objetos em Java é o new. Este comando trata de reservar memória o suficiente para o objeto e criar automaticamente uma referência a ele. Para new conseguir determinar o objeto, precisamos usar o método construtor que será usado como base para instanciar a classe e gerar o objeto.

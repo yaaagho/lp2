@@ -27,6 +27,7 @@ public class Calculadora {
         objetoA.subtracao();
         objetoA.multiplicacao();
         objetoA.divisao();
+        System.out.printf("\n");
         
         Calculadora objetoB = new Calculadora();
         System.out.println ("Objeto B");
@@ -36,6 +37,7 @@ public class Calculadora {
         objetoB.subtracao();
         objetoB.multiplicacao();
         objetoB.divisao();
+        System.out.printf("\n");
         
         Calculadora objetoC = new Calculadora();        
         System.out.println ("OBjeto C");

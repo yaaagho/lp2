@@ -1,20 +1,21 @@
 public class Calculadora {
     int a, b;
     
-    public void soma(){
+    public void soma() {
         System.out.println ("A soma dos dois números é: " + (this.a+this.b));
     }
     
-    public void subtracao(){
+    public void subtracao() {
         System.out.println ("A subtração dos dois números é: " + (this.a-this.b));
     }
     
-    public void multiplicacao(){
+    public void multiplicacao() {
         System.out.println ("A multiplicação dos dois números é: " + (this.a*this.b));
     }
     
-    public void divisao(){
+    public void divisao() {
         System.out.println ("A divisão dos dois números é: " + (this.a/this.b));
+        System.out.printf ("\n");
     }
     
     public static void main(String[] args) {
@@ -27,7 +28,6 @@ public class Calculadora {
         objetoA.subtracao();
         objetoA.multiplicacao();
         objetoA.divisao();
-        System.out.printf("\n");
         
         Calculadora objetoB = new Calculadora();
         System.out.println ("Objeto B");
@@ -37,7 +37,6 @@ public class Calculadora {
         objetoB.subtracao();
         objetoB.multiplicacao();
         objetoB.divisao();
-        System.out.printf("\n");
         
         Calculadora objetoC = new Calculadora();        
         System.out.println ("OBjeto C");

@@ -2,7 +2,7 @@ public class Exponencial {
     public static void main(String[] args) {
         int i, j, 
         m[][] = new int[11][3];
-        System.out.printf("#" + "   " + "Q" + "   " + "C");
+        System.out.printf ("#" + "   " + "Q" + "   " + "C");
         for (i=0; i<11; i++) {
                 for (j=0; j<3; j++) {
                     m[i][0] = i;
@@ -10,12 +10,12 @@ public class Exponencial {
                     m[i][2] = i*i*i;
                 }
         }
-        System.out.printf("\n");
+        System.out.printf ("\n");
         for (i=0; i<11; i++) {
                 for (j=0; j<3; j++) {
-                    System.out.printf("%d   ", m[i][j]);
+                    System.out.printf ("%d   ", m[i][j]);
                 }
-      System.out.printf("\n");
+      System.out.printf ("\n");
     }
   }
 }

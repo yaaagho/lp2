@@ -2,19 +2,19 @@ public class Calculadora {
     int a, b;
     
     public void soma(){
-        System.out.println("A soma dos dois números é: " + (this.a+this.b));
+        System.out.println ("A soma dos dois números é: " + (this.a+this.b));
     }
     
     public void subtracao(){
-        System.out.println("A subtração dos dois números é: " + (this.a-this.b));
+        System.out.println ("A subtração dos dois números é: " + (this.a-this.b));
     }
     
     public void multiplicacao(){
-        System.out.println("A multiplicação dos dois números é: " + (this.a*this.b));
+        System.out.println ("A multiplicação dos dois números é: " + (this.a*this.b));
     }
     
     public void divisao(){
-        System.out.println("A divisão dos dois números é: " + (this.a/this.b));
+        System.out.println ("A divisão dos dois números é: " + (this.a/this.b));
     }
     
     public static void main(String[] args) {
@@ -38,7 +38,7 @@ public class Calculadora {
         objetoB.divisao();
         
         Calculadora objetoC = new Calculadora();        
-        System.out.println("OBjeto C");
+        System.out.println ("OBjeto C");
         objetoC.a=50;
         objetoC.b=25;
         objetoC.soma();

@@ -14,8 +14,8 @@ public class Palindrome {
             } 
             
             if(arg1.equals(arg2)){
-                this.l1 = i;
-		this.l2 = i+4;
+                this.l1 = i+1;
+		this.l2 = i+5;
 		return i;
             }
             
